@@ -1,0 +1,22 @@
+Kuidas teha mitmetasemelist loendit?
+Kuidas lisada pilti enda arvutist?
+Kuidas lisada lehekülje numbreid?
+Kuidas lisada pildile allkirja (caption)?
+Kuidas lisada joonealust märkust?
+Kuidas teha numbri loendit?
+Kuidas teha ülaindeksit?
+Kuidas teha alaindeksit?
+Kuidas luua uut pildi alkirja (Label) varianti?
+Kuidas muuta pealkirjade stiile?
+Kuidas lisada pilti internetist?
+Kuidas paigutada tekst veergudesse?
+Kuidas keerate üke leht dokumendis põikipidi?
+Kuidas eemaldada esimeselt leheküljelt leheküljenumber?
+Kuidas teha pildi allkirjadest nimekirja?
+Kuidas teha sisukorda?
+Milliseid kleepimise võimalusi on Wordis?
+MIllised esmased seadistused teha Wordis?
+Kuidas luua tiitellehe malli?
+Kuidas salvestada dokument uuele nimele?
+Kuidas avada dokumenti Wordis?
+Kuidas avada PDF faili Wordis?

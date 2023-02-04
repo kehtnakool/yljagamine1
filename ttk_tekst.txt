@@ -1,0 +1,63 @@
+ou just need to space things properly and use the right options. You really cannot fit multiple widgets in the same grid cell unless you layer Frames.
+
+from tkinter import *
+
+root = Tk()
+
+buttonA0 = Button(root, width = 50, text = 'Hi')
+buttonB0 = Button(root, text = 'Bye')
+buttonC0 = Button(root, text = 'Option 0')
+buttonC1 = Button(root, text = 'Option 1')
+buttonC2 = Button(root, text = 'Option 2')
+buttonC3 = Button(root, text = 'Option 3')
+buttonC4 = Button(root, text = 'Option 4')
+
+buttonA0.grid(column = 0, row = 0, rowspan = 5, sticky = NE+SW)
+buttonB0.grid(column = 0, row = 5, columnspan = 2, sticky = E+W)
+buttonC0.grid(column = 1, row = 0)
+buttonC1.grid(column = 1, row = 1)
+buttonC2.grid(column = 1, row = 2)
+buttonC3.grid(column = 1, row = 3)
+buttonC4.grid(column = 1, row = 4)
+
+root.mainloop()
+
+*edited to look cleaner
+1
+User avatar
+level 2
+Hexelena
+·
+7 yr. ago
+Hexelena
+
+I don't think this is a good solution. If you have to edit the layout of your Window you have to change a lot of indices.
+A better solution would be to place a Frame in the position where the buttons should go. Then place the buttons in the new Frame. If you have several buttons that shall be placed together this is far easier.
+1
+Continue this thread 
+User avatar
+level 1
+Hexelena
+·
+7 yr. ago
+· edited 7 yr. ago
+Hexelena
+
+There is a very easy way which I consider the most elegant.
+
+You create a new Frame widget. Then you place this widget in the grid-position where you want your buttons. Then you create your Buttons with the first argument not being the root-Window but the Frame: Here's a working example(Python 3)
+
+import tkinter as tk
+  
+root = tk.Tk()
+buttonContainer = tk.Frame(root)
+buttonContainer.grid(column = 1, row = 0)
+  
+button1 = tk.Button(buttonContainer, text = 'First Button')
+button1.grid(row = 0, column = 0)
+  
+button2 = tk.Button(buttonContainer, text = 'Second Button')
+button2.grid(row = 1, column = 0)
+  
+root.mainloop()
+

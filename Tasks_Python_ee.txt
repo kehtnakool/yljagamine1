@@ -1,0 +1,18 @@
+Tee erinevat tüüpi muutujaid
+Tee tühi list
+For tsükkel
+While tsükkel
+Mängimine stringidega
+If lause
+Loe tekstifaile
+Kirjuta tekstifaili
+Kirjuta funktsioon (meetod)
+Sisestus konsoolis
+Väljastus konsooli (print)
+Mängimine listidega
+Moodulite importimised
+Graafiline kasutajaliides (tkinter)
+Ülesanne Vanus
+Ülesanne Klass
+Ülesanne Kuupäev
+Ülesanne Ruut

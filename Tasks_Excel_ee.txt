@@ -1,0 +1,10 @@
+Kuidas lisada valemit?
+Kuidas keelata automaatne arvutamine?
+Kuidas manuaalselt uuendada arvutust tulemust?
+Kuidas teha äärejooni?
+Kuidas värvida teksti?
+Kuidas värvida lahtri tausta?
+Kuidas nimetada ümber töölehe nime?
+Kuidas muuta töölehe asukohta?
+Kuidas teha diagrammi?
+Kuidas lisada numbritele ühikuid?
